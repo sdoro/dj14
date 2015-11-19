@@ -1,7 +1,7 @@
 
-# workspace for 5SX classes
+# workspace for [45]SX classes
 
-## Requirements
+## Requirements (only for 5Sx classes)
 
 1. You've completed (at least most of) Learn Python the Hard Way: http://learnpythonthehardway.org/
 
@@ -12,7 +12,8 @@
 ## Setup github and c9.io workspace (the easy way)
 
 1. Create a github repository (e.g. dj14)
-2. Create a new workspace in c9.io filling with the previous generated github repository (e.g. dj14)
+2. Enter in demo-project c9.io workspace and copy your ~/ssh/id_rsa.pub key into https://github.com/settings/ssh
+3. Create a new workspace in c9.io filling with the previous generated github repository (e.g. dj14) into field named "Clone from Git or Mercurial URL".
 
 Now the github *origin* IS in github.com:
 
