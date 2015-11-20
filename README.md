@@ -26,8 +26,25 @@ Now the github *origin* IS in github.com:
 
 From now on we can use git commands as usual:
 
-    make 'some' changes      # localy
-    git add                  # localy
+    make 'some' changes      # localy       # where: c9.io
+    git add                  # localy       # where: c9.io
     git commit               # localy       # where: c9.io
     git push                 # remotely     # where: github.com
 
+
+## Using github repository
+
+From c9.io dashboard select repository; then c9.io opens automaticaly a workspace connected with the selected repository.
+
+
+## Using requirements.txt file
+
+You can generate requirements.txt file from inside your particular virtual environment with:
+
+    pip freeze > requirements.txt
+    
+You can gerate you particular environment using requirements.txt file typing from your environment:
+
+    pip install -r requirements.txt
+    
+    
