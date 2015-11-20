@@ -26,10 +26,10 @@ Now the github *origin* IS in github.com:
 
 From now on we can use git commands as usual:
 
-    make 'some' changes      # localy       # where: c9.io
-    git add                  # localy       # where: c9.io
-    git commit               # localy       # where: c9.io
-    git push                 # remotely     # where: github.com
+    make 'some' changes      # locally       # where: c9.io
+    git add                  # locally       # where: c9.io
+    git commit               # locally       # where: c9.io
+    git push                 # remotely      # where: github.com
 
 
 ## Using github repository
